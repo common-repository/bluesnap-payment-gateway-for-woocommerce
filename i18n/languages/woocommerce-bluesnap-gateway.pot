@@ -1,0 +1,850 @@
+# Copyright (C) 2024 woocommerce-bluesnap-gateway
+# This file is distributed under the same license as the woocommerce-bluesnap-gateway package.
+msgid ""
+msgstr ""
+"Project-Id-Version: woocommerce-bluesnap-gateway\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-03-20 11:29+0000\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: bluesnap-for-woocommerce.php:53
+msgid "You can't enable two versions of the same plugin. BlueSnap Payment Gateway for WooCommerce v%s plugin is enabled."
+msgstr ""
+
+#: class-woocommerce-bluesnap-gateway.php:90, class-woocommerce-bluesnap-gateway.php:98
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: class-woocommerce-bluesnap-gateway.php:106
+msgid "Only a single instance of this class is allowed. Use singleton."
+msgstr ""
+
+#: class-woocommerce-bluesnap-gateway.php:157
+msgid "WooCommerce Bluesnap Gateway is inactive because WooCommerce is not installed and active."
+msgstr ""
+
+#: includes/class-wc-bluesnap-apple-pay.php:133
+msgid "Apple Pay is available, but an account is required."
+msgstr ""
+
+#: includes/class-wc-bluesnap-apple-pay.php:134, includes/class-wc-bluesnap-google-pay.php:130
+msgid "Log In or Register"
+msgstr ""
+
+#: includes/class-wc-bluesnap-apple-pay.php:161, includes/class-wc-bluesnap-google-pay.php:156
+msgid "OR"
+msgstr ""
+
+#: includes/class-wc-bluesnap-email-chargeback-order.php:31, includes/class-wc-bluesnap-email-chargeback-order.php:60
+msgid "Chargeback received for order"
+msgstr ""
+
+#: includes/class-wc-bluesnap-email-chargeback-order.php:32
+msgid "Chargeback received for order emails are sent to chosen recipient(s) when the issuing bank initiates a refund."
+msgstr ""
+
+#: includes/class-wc-bluesnap-email-chargeback-order.php:53
+msgid "[{site_title}] Chargeback received for order ({order_number})"
+msgstr ""
+
+#: includes/class-wc-bluesnap-email-chargeback-order.php:137, includes/admin/bluesnap-ach-settings.php:10, includes/admin/bluesnap-settings.php:14
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-wc-bluesnap-email-chargeback-order.php:139
+msgid "Enable this email notification"
+msgstr ""
+
+#: includes/class-wc-bluesnap-email-chargeback-order.php:143
+msgid "Recipient(s)"
+msgstr ""
+
+#. translators: %s: WP admin email
+#: includes/class-wc-bluesnap-email-chargeback-order.php:146
+msgid "Enter recipients (comma separated) for this email. Defaults to %s."
+msgstr ""
+
+#: includes/class-wc-bluesnap-email-chargeback-order.php:152
+msgid "Subject"
+msgstr ""
+
+#. translators: %s: list of placeholders
+#: includes/class-wc-bluesnap-email-chargeback-order.php:156, includes/class-wc-bluesnap-email-chargeback-order.php:165
+msgid "Available placeholders: %s"
+msgstr ""
+
+#: includes/class-wc-bluesnap-email-chargeback-order.php:161
+msgid "Email heading"
+msgstr ""
+
+#: includes/class-wc-bluesnap-email-chargeback-order.php:170
+msgid "Email type"
+msgstr ""
+
+#: includes/class-wc-bluesnap-email-chargeback-order.php:172
+msgid "Choose which format of email to send."
+msgstr ""
+
+#: includes/class-wc-bluesnap-errors.php:19, includes/class-wc-bluesnap-errors.php:23
+msgid "Please enter a valid credit card number"
+msgstr ""
+
+#: includes/class-wc-bluesnap-errors.php:20, includes/class-wc-bluesnap-errors.php:24
+msgid "Please enter the CVV/CVC of your card"
+msgstr ""
+
+#: includes/class-wc-bluesnap-errors.php:21, includes/class-wc-bluesnap-errors.php:25
+msgid "Please enter your credit card's expiration date"
+msgstr ""
+
+#: includes/class-wc-bluesnap-errors.php:26
+msgid "Your payment could not be processed at this time as this card brand is not supported. Please select a new payment method and try again."
+msgstr ""
+
+#: includes/class-wc-bluesnap-errors.php:27, includes/class-wc-bluesnap-errors.php:30
+msgid "Token is expired. Please try again."
+msgstr ""
+
+#: includes/class-wc-bluesnap-errors.php:28
+msgid "Could not find token"
+msgstr ""
+
+#: includes/class-wc-bluesnap-errors.php:29
+msgid "Token is not associated with a payment method, please verify your client integration or contact BlueSnap support"
+msgstr ""
+
+#: includes/class-wc-bluesnap-errors.php:31, includes/class-wc-bluesnap-errors.php:32, includes/class-wc-bluesnap-errors.php:33
+msgid "Internal server error please try again later"
+msgstr ""
+
+#: includes/class-wc-bluesnap-errors.php:36
+msgid "3D Secure is not enabled"
+msgstr ""
+
+#: includes/class-wc-bluesnap-errors.php:37
+msgid "Secure authentication has failed. Please try again."
+msgstr ""
+
+#: includes/class-wc-bluesnap-errors.php:38
+msgid "3D Secure object is missing required fields."
+msgstr ""
+
+#: includes/class-wc-bluesnap-errors.php:39
+msgid "Could not find selected card"
+msgstr ""
+
+#: includes/class-wc-bluesnap-errors.php:43
+msgid "Your payment could not be processed at this time. Please make sure the card information was entered correctly and resubmit. If the problem persists, please contact your credit card company to authorize the purchase."
+msgstr ""
+
+#: includes/class-wc-bluesnap-errors.php:44
+msgid "Your payment could not be processed at this time. Please try again later."
+msgstr ""
+
+#: includes/class-wc-bluesnap-errors.php:45
+msgid "Unfortunately your selected Card brand and Currency combination is not available. Please try a different card or contact our support team."
+msgstr ""
+
+#: includes/class-wc-bluesnap-gateway-ach.php:32
+msgid "BlueSnap ACH"
+msgstr ""
+
+#: includes/class-wc-bluesnap-gateway-ach.php:34
+msgid "BlueSnap ACH Payment Gateway"
+msgstr ""
+
+#: includes/class-wc-bluesnap-gateway-ach.php:124, includes/payment-methods/class-wc-bluesnap-gateway.php:265
+msgid "Something went wrong with your payment method selected."
+msgstr ""
+
+#. translators: Transaction ID
+#: includes/class-wc-bluesnap-gateway-ach.php:147, includes/trait-wc-bluesnap-addons.php:82, includes/trait-wc-bluesnap-addons.php:442
+msgid "Charge pending confirmation from BlueSnap (Charge ID: %s)."
+msgstr ""
+
+#: includes/class-wc-bluesnap-gateway-ach.php:215
+msgid "Authorization has failed for this transaction. Please try again or contact your bank for assistance"
+msgstr ""
+
+#: includes/class-wc-bluesnap-gateway-ach.php:347
+msgid "Missing account number."
+msgstr ""
+
+#: includes/class-wc-bluesnap-gateway-ach.php:350
+msgid "Missing routing number."
+msgstr ""
+
+#: includes/class-wc-bluesnap-gateway-ach.php:353
+msgid "Please select an account type."
+msgstr ""
+
+#: includes/class-wc-bluesnap-gateway-ach.php:357
+msgid "Account number must be 4-17 digits long."
+msgstr ""
+
+#: includes/class-wc-bluesnap-gateway-ach.php:361
+msgid "Routing number must be a 9 digit number."
+msgstr ""
+
+#: includes/class-wc-bluesnap-gateway-ach.php:381
+msgid "USD is the only currency supported by the selected payment method."
+msgstr ""
+
+#: includes/class-wc-bluesnap-gateway-ach.php:384
+msgid "You need to Authorize this transaction."
+msgstr ""
+
+#: includes/class-wc-bluesnap-gateway-ach.php:373
+msgid "You cannot add a payment method of this type without providing your First and Last Name. Go to your <a href=\"%1$s\">Account details</a> and enter your billing data."
+msgstr ""
+
+#: includes/class-wc-bluesnap-gateway-ach.php:389
+msgid "Postcode must be 5 characters long."
+msgstr ""
+
+#: includes/class-wc-bluesnap-gateway-ach.php:393
+msgid "US is the only country supported by the selected payment method."
+msgstr ""
+
+#: includes/class-wc-bluesnap-gateway-ach.php:397
+msgid "Using a corporate account requires a non empty company field."
+msgstr ""
+
+#: includes/class-wc-bluesnap-gateway-ach.php:439
+msgid "User ACH Number could not be saved."
+msgstr ""
+
+#: includes/class-wc-bluesnap-gateway-ach.php:440
+msgid "We could not save your ACH number, try next time."
+msgstr ""
+
+#: includes/class-wc-bluesnap-gateway-ach.php:457
+msgid "This payment method will be saved to your account."
+msgstr ""
+
+#: includes/class-wc-bluesnap-gateway-addons-ach.php:104, includes/class-wc-bluesnap-gateway-addons-ach.php:108
+msgid "You cannot switch a subscription into using an ACH account."
+msgstr ""
+
+#: includes/class-wc-bluesnap-gateway-addons-ach.php:113
+msgid "You cannot save/add multiple ACH/ECP accounts because you have a non-cancelled subscription."
+msgstr ""
+
+#: includes/class-wc-bluesnap-gateway-addons-ach.php:118
+msgid "You cannot purchase a subscription using this payment method because you have multiple ACH/ECP accounts saved."
+msgstr ""
+
+#: includes/class-wc-bluesnap-gateway-addons-ach.php:123
+msgid "You cannot purchase a subscription offering a free-trial using this payment method."
+msgstr ""
+
+#: includes/class-wc-bluesnap-gateway-addons-ach.php:128
+msgid "You cannot purchase a subscription with a renewal period smaller than 1 week using this payment method."
+msgstr ""
+
+#. translators: The gateway title
+#: includes/class-wc-bluesnap-gateway-addons-ach.php:234
+msgid "%s is not currently available for subscription products when there are multiple saved accounts."
+msgstr ""
+
+#. translators: The gateway title
+#: includes/class-wc-bluesnap-gateway-addons-ach.php:239
+msgid "You can't purchase a subscription with a renewal period smaller than 1 week using %s."
+msgstr ""
+
+#. translators: The gateway title
+#: includes/class-wc-bluesnap-gateway-addons-ach.php:244
+msgid "%s doesn't support adding multiple accounts for existing or new subscriptions."
+msgstr ""
+
+#: includes/class-wc-bluesnap-google-pay.php:129
+msgid "Google Pay is available, but an account is required."
+msgstr ""
+
+#: includes/class-wc-bluesnap-google-pay.php:320
+msgid "Subtotal"
+msgstr ""
+
+#: includes/class-wc-bluesnap-google-pay.php:338
+msgid "Total"
+msgstr ""
+
+#: includes/class-wc-bluesnap-ipn-webhooks.php:67
+msgid "BlueSnap IPN request failed."
+msgstr ""
+
+#. translators: %1$s transactionType
+#: includes/class-wc-bluesnap-ipn-webhooks.php:73
+msgid "BlueSnap %1$s IPN request failed."
+msgstr ""
+
+#. translators: %1$s reason
+#: includes/class-wc-bluesnap-ipn-webhooks.php:183
+msgid "BlueSnap ACH Declined IPN request received. A chargeback has been created for this transaction. Reason: %1$s."
+msgstr ""
+
+#. translators: %1$s reason, %2$s amount
+#: includes/class-wc-bluesnap-ipn-webhooks.php:207
+msgid "BlueSnap REFUND IPN received. Reason: %1$s. Refund amount: %2$s."
+msgstr ""
+
+#. translators: $1: opening link tag, $2: order number, $3: closing link tag
+#: includes/class-wc-bluesnap-ipn-webhooks.php:228
+msgid "Subscription cancelled for refunded order %1$s#%2$s%3$s."
+msgstr ""
+
+#. translators: %1$s reason
+#: includes/class-wc-bluesnap-ipn-webhooks.php:237
+msgid "wc_create_refund failed: %1$s."
+msgstr ""
+
+#. translators: %1$s reason
+#: includes/class-wc-bluesnap-ipn-webhooks.php:250
+msgid "BlueSnap CHARGEBACK_STATUS_CHANGED IPN received. Reason: %1$s."
+msgstr ""
+
+#. translators: %1$s reason
+#: includes/class-wc-bluesnap-ipn-webhooks.php:269
+msgid "BlueSnap CHARGEBACK IPN request received. A chargeback has been created for this transaction. Reason: %1$s."
+msgstr ""
+
+#: includes/class-wc-bluesnap-ipn-webhooks.php:309
+msgid "No Payment ID detected in Charge Failure IPN."
+msgstr ""
+
+#: includes/class-wc-bluesnap-ipn-webhooks.php:299
+msgid "No Order found."
+msgstr ""
+
+#: includes/class-wc-bluesnap-ipn-webhooks.php:307
+msgid "BlueSnap ACH Subscription Charge failure IPN received. Reason: %1$s."
+msgstr ""
+
+#: includes/class-wc-bluesnap-ipn-webhooks.php:330
+msgid "Empty merchantTransactionId"
+msgstr ""
+
+#: includes/class-wc-bluesnap-ipn-webhooks.php:323
+msgid "Empty merchantTransactionId & referenceNumber"
+msgstr ""
+
+#: includes/class-wc-bluesnap-ipn-webhooks.php:339
+msgid "Order could not be found"
+msgstr ""
+
+#: includes/class-wc-bluesnap-ipn-webhooks.php:378
+msgid "Empty request"
+msgstr ""
+
+#: includes/class-wc-bluesnap-ipn-webhooks.php:385
+msgid "Invalid IPN source"
+msgstr ""
+
+#: includes/class-wc-bluesnap-ipn-webhooks.php:390
+msgid "Invalid User-Agent"
+msgstr ""
+
+#: includes/class-wc-bluesnap-ipn-webhooks.php:398
+msgid "transactionType not set"
+msgstr ""
+
+#: includes/class-wc-bluesnap-ipn-webhooks.php:446
+msgid "IPN request repeated too soon or previous request exited abnormally."
+msgstr ""
+
+#: includes/class-wc-bluesnap-multicurrency.php:301
+msgid "You cannot change currency while a subscription switch exists in your cart."
+msgstr ""
+
+#: includes/class-wc-bluesnap-order-handler.php:96
+msgid "An error occurred during the ACH refresh status request. Review the WooCommerce logs for specific details about the error. If the logs don't resolve the issue, contact BlueSnap Merchant Support for assistance."
+msgstr ""
+
+#: includes/class-wc-bluesnap-payment-request.php:236
+msgid "Error processing Google Pay. Please try again."
+msgstr ""
+
+#: includes/class-wc-bluesnap-payment-request.php:237
+msgid "Google Pay is not available for you due to the contents of your cart being incompatible with it. Please attempt the standard checkout options."
+msgstr ""
+
+#: includes/class-wc-bluesnap-payment-request.php:238
+msgid "Google Pay is not available for you due to the contents of your cart being incompatible with your OS version. Upgrade if possible, or attempt the standard checkout options."
+msgstr ""
+
+#: includes/class-wc-bluesnap-payment-request.php:239
+msgid "Google Pay is not available for you because you don't have any payment methods set up. Please set it up, or attempt the standard checkout options."
+msgstr ""
+
+#: includes/class-wc-bluesnap-payment-request.php:242
+msgid "Error processing Apple Pay. Please try again."
+msgstr ""
+
+#: includes/class-wc-bluesnap-payment-request.php:243
+msgid "Apple Pay is not available for you due to the contents of your cart being incompatible with it. Please attempt the standard checkout options."
+msgstr ""
+
+#: includes/class-wc-bluesnap-payment-request.php:244
+msgid "Apple Pay is not available for you due to the contents of your cart being incompatible with your OS version. Upgrade if possible, or attempt the standard checkout options."
+msgstr ""
+
+#: includes/class-wc-bluesnap-payment-request.php:245
+msgid "Apple Pay is not available for you because you don't have any payment methods set up. Please set it up, or attempt the standard checkout options."
+msgstr ""
+
+#: includes/class-wc-bluesnap-payment-request.php:314
+msgid "Empty cart"
+msgstr ""
+
+#: includes/class-wc-bluesnap-payment-request.php:387
+msgid "Please read and accept the terms and conditions to proceed with your order."
+msgstr ""
+
+#: includes/class-wc-bluesnap-payment-request.php:397, includes/class-wc-bluesnap-payment-request.php:404
+msgid "Invalid payment method."
+msgstr ""
+
+#: includes/class-wc-bluesnap-payment-request.php:571, includes/class-wc-bluesnap-payment-request.php:554
+msgid "Unable to find shipping method for address."
+msgstr ""
+
+#. translators: 1) payment type 2) country.
+#: includes/class-wc-bluesnap-payment-request.php:1195
+msgid "%1$s is not supported in %2$s because some required fields couldn't be verified. Please proceed to the checkout page and try again or choose a different method."
+msgstr ""
+
+#: includes/class-wc-bluesnap-payment-request.php:1401, includes/class-wc-bluesnap-payment-request.php:1512
+msgid "Tax"
+msgstr ""
+
+#: includes/class-wc-bluesnap-payment-request.php:1411, includes/class-wc-bluesnap-payment-request.php:1522
+msgid "Shipping"
+msgstr ""
+
+#: includes/class-wc-bluesnap-payment-request.php:1421, includes/class-wc-bluesnap-payment-request.php:1532
+msgid "Discount"
+msgstr ""
+
+#: includes/class-wc-bluesnap-payment-request.php:1691
+msgid "Bluesnap Subscription ID missing."
+msgstr ""
+
+#: includes/class-wc-bluesnap-payment-request.php:1695
+msgid "Payment Token missing."
+msgstr ""
+
+#: includes/class-wc-bluesnap-payment-request.php:1766
+msgid "Payment method updated."
+msgstr ""
+
+#: includes/class-wc-bluesnap-payment-request.php:1766
+msgid "Payment method added."
+msgstr ""
+
+#: includes/class-wc-bluesnap-token.php:326
+msgid "Credit card"
+msgstr ""
+
+#: includes/class-wc-bluesnap-token.php:338
+msgid "account"
+msgstr ""
+
+#: includes/class-wc-bluesnap-token.php:338
+msgid "ACH/ECP"
+msgstr ""
+
+#: includes/trait-wc-bluesnap-addons.php:322
+msgid "Error processing scheduled_subscription_payment. Reason: "
+msgstr ""
+
+#: includes/trait-wc-bluesnap-addons.php:387
+msgid "Error processing preorder payment. Reason: "
+msgstr ""
+
+#. translators: 1$: trial length (e.g.: "with 4 months free trial")
+#: includes/trait-wc-bluesnap-addons.php:713
+msgid "- with %1$s free trial"
+msgstr ""
+
+#: includes/trait-wc-bluesnap-addons.php:745
+msgid "- Sign Up Fee"
+msgstr ""
+
+#: includes/trait-wc-bluesnap-addons.php:745
+msgid "- Sign Up Discount"
+msgstr ""
+
+#. translators: 1$: date string (e.g.: "to be paid November 22")
+#: includes/trait-wc-bluesnap-addons.php:768
+msgid "- to be paid %1$s"
+msgstr ""
+
+#. translators: placeholder is a date
+#: includes/trait-wc-bluesnap-addons.php:812
+msgid "First renewal: %s"
+msgstr ""
+
+#: includes/trait-wc-bluesnap-addons.php:816
+msgid "Every"
+msgstr ""
+
+#. translators: $1: opening link tag, $2: order number, $3: closing link tag
+#: includes/trait-wc-bluesnap-addons.php:844
+msgid "Subscription cancelled because order %1$s#%2$s%3$s received a chargeback."
+msgstr ""
+
+#: includes/trait-wc-bluesnap-addons.php:864
+msgid "The Subscription ID for this order is missing. The request cannot be processed."
+msgstr ""
+
+#: includes/trait-wc-bluesnap-addons.php:867
+msgid "This Subscription is pending. Please try again after the initial payment has been processed."
+msgstr ""
+
+#: templates/multicurrency-selector.php:21
+msgid "Default Currency"
+msgstr ""
+
+#: templates/payment-fields-bluesnap-ach.php:17
+msgid "Account Number"
+msgstr ""
+
+#: templates/payment-fields-bluesnap-ach.php:22
+msgid "Routing Number"
+msgstr ""
+
+#: templates/payment-fields-bluesnap-ach.php:27
+msgid "Account Type"
+msgstr ""
+
+#: templates/payment-fields-bluesnap-ach.php:29
+msgid "Select Account type"
+msgstr ""
+
+#: templates/payment-fields-bluesnap-ach.php:30
+msgid "Consumer checking"
+msgstr ""
+
+#: templates/payment-fields-bluesnap-ach.php:31
+msgid "Consumer savings"
+msgstr ""
+
+#: templates/payment-fields-bluesnap-ach.php:32
+msgid "Corporate checking"
+msgstr ""
+
+#: templates/payment-fields-bluesnap-ach.php:33
+msgid "Corporate savings"
+msgstr ""
+
+#: templates/payment-fields-bluesnap-ach.php:40
+msgid "I authorize this Electronic Check (ACH/ECP) transaction and agree to this debit of my account."
+msgstr ""
+
+#: templates/payment-fields-bluesnap.php:27
+msgid "Card Number"
+msgstr ""
+
+#: templates/payment-fields-bluesnap.php:34
+msgid "Expiry Date"
+msgstr ""
+
+#: templates/payment-fields-bluesnap.php:39
+msgid "CVC"
+msgstr ""
+
+#: templates/payment-fields-bluesnap.php:42
+msgid "What's this?"
+msgstr ""
+
+#: templates/payment-fields-bluesnap.php:43
+msgid "The CVC (Card Validation Code) is a 3 or 4 digit code on the reverse side of Visa, MasterCard and Discover cards and on the front of American Express cards."
+msgstr ""
+
+#: includes/admin/bluesnap-ach-settings.php:11
+msgid "Enable BlueSnap ACH/ECP"
+msgstr ""
+
+#: includes/admin/bluesnap-ach-settings.php:17, includes/admin/bluesnap-settings.php:34
+msgid "Title"
+msgstr ""
+
+#: includes/admin/bluesnap-ach-settings.php:19, includes/admin/bluesnap-settings.php:36
+msgid "Type here the name that you want the user to see"
+msgstr ""
+
+#: includes/admin/bluesnap-ach-settings.php:20
+msgid "ACH/ECP Transactions"
+msgstr ""
+
+#: includes/admin/bluesnap-ach-settings.php:24, includes/admin/bluesnap-settings.php:41
+msgid "Description"
+msgstr ""
+
+#: includes/admin/bluesnap-ach-settings.php:26, includes/admin/bluesnap-settings.php:43
+msgid "Enter your payment method description here (optional)"
+msgstr ""
+
+#: includes/admin/bluesnap-ach-settings.php:27
+msgid "Pay using an ACH/ECP Transaction"
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:10
+msgid "Get your credentials from <a href=\"https://bluesnap.com\" target=\"_blank\">here</a>"
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:15
+msgid "Enable BlueSnap"
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:21
+msgid "Test mode"
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:22
+msgid "Enable Test Mode"
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:24
+msgid "Place the payment gateway in test mode using test API keys."
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:29
+msgid "IPN configuration"
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:31
+msgid "You must add the following webhook endpoint to your Bluesnap account <a href=\"https://support.bluesnap.com/docs/ipn-setup\" target=\"_blank\">here</a>: "
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:37
+msgid "Credit/Debit Card"
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:44
+msgid "Pay using your Credit/Debit Card"
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:48
+msgid "API User Key"
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:50
+msgid "API User Key provided by BlueSnap."
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:54
+msgid "API Password"
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:56
+msgid "API Password provided by BlueSnap."
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:60
+msgid "Merchant Id"
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:62
+msgid "Merchant id from your Bluesnap account."
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:66
+msgid "Soft Descriptor"
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:68
+msgid "This text will be displayed in your customers Credit Card statement."
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:73
+msgid "Capture"
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:75
+msgid "Set to Capture charge immediately. This setting has no effect subscriptions. Charges on orders related to subscriptions are always captured."
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:77
+msgid "Whether or not to immediately capture the charge. When unchecked, the charge issues an authorization and will need to be captured later."
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:80
+msgid "3D Secure"
+msgstr ""
+
+#. translators: %1$s URL to Bluesnap Support
+#: includes/admin/bluesnap-settings.php:83
+msgid "Contact <a href=\"%1$s\">Merchant Support</a> and ask for 3D Secure to be enabled for your account before you activate it here."
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:88
+msgid "Saved Cards"
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:90
+msgid "Allow users to pay with saved cards on checkout. (Saved on BlueSnap server)."
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:94
+msgid "BlueSnap currency converter"
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:96
+msgid "Enable BlueSnap currency converter."
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:100
+msgid "Select currencies to display in your shop"
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:110
+msgid "Google Pay Wallet"
+msgstr ""
+
+#. translators: %1$s URL to Bluesnap Support
+#: includes/admin/bluesnap-settings.php:112
+msgid "Contact <a href=\"%1$s\">Merchant Support</a> and ask for Google Pay Wallet to be enabled for your account before you activate it here."
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:114
+msgid "Allow users to pay with Google Pay."
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:118
+msgid "Google Merchant ID"
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:120
+msgid "Request for Google Pay production access <a href=\"%1$s\" target=\"_blank\">here</a>. Google Pay won't be available in production mode until you enter the merchant ID."
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:124
+msgid "Apple Pay Wallet"
+msgstr ""
+
+#. translators: %1$s URL to Bluesnap Support
+#: includes/admin/bluesnap-settings.php:126
+msgid "Contact <a href=\"%1$s\">Merchant Support</a> and ask for Apple Pay Wallet to be enabled for your account before you activate it here."
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:128
+msgid "Allow users to pay with Apple pay."
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:132
+msgid "Logging"
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:133
+msgid "Log debug messages"
+msgstr ""
+
+#: includes/admin/bluesnap-settings.php:135
+msgid "Save debug messages to the WooCommerce System Status log."
+msgstr ""
+
+#: includes/admin/class-wc-bluesnap-admin.php:74
+msgid "Settings"
+msgstr ""
+
+#. translators: 1) link
+#: includes/admin/class-wc-bluesnap-admin.php:118
+msgid "Bluesnap is enabled, but a SSL certificate is not detected. Your checkout may not be secure! Please ensure your server has a valid <a href=\"%1$s\" target=\"_blank\">SSL certificate</a>"
+msgstr ""
+
+#: includes/payment-methods/abstract-wc-bluesnap-payment-gateway.php:195
+msgid "Soft descriptor is required. Disabling the gateway."
+msgstr ""
+
+#: includes/payment-methods/abstract-wc-bluesnap-payment-gateway.php:191
+msgid "The Soft Descriptor setting was trimmed to 20 characters."
+msgstr ""
+
+#. translators: transaction id
+#: includes/payment-methods/abstract-wc-bluesnap-payment-gateway.php:212
+msgid "Bluesnap transaction complete (Transaction ID: %s)"
+msgstr ""
+
+#: includes/payment-methods/abstract-wc-bluesnap-payment-gateway.php:430
+msgid "Error creating BlueSnap token"
+msgstr ""
+
+#: includes/payment-methods/abstract-wc-bluesnap-payment-gateway.php:561
+msgid "Error processing payment. Reason: "
+msgstr ""
+
+#: includes/payment-methods/class-wc-bluesnap-gateway.php:20
+msgid "BlueSnap"
+msgstr ""
+
+#: includes/payment-methods/class-wc-bluesnap-gateway.php:22
+msgid "BlueSnap Payment Gateway"
+msgstr ""
+
+#: includes/payment-methods/class-wc-bluesnap-gateway.php:112
+msgid "3DS Reference is empty."
+msgstr ""
+
+#: includes/payment-methods/class-wc-bluesnap-gateway.php:127
+msgid "Card information is invalid."
+msgstr ""
+
+#: includes/payment-methods/class-wc-bluesnap-gateway.php:207
+msgid "User credit card could not be saved."
+msgstr ""
+
+#: includes/payment-methods/class-wc-bluesnap-gateway.php:208
+msgid "We could not save your credit card, try next time."
+msgstr ""
+
+#. translators: transaction id
+#: includes/payment-methods/class-wc-bluesnap-gateway.php:287
+msgid "Bluesnap charge authorized (Charge ID: %s). Process order to take payment, or cancel to remove the pre-authorization."
+msgstr ""
+
+#: includes/payment-methods/class-wc-bluesnap-gateway.php:387
+msgid "Pre-Authorization Released"
+msgstr ""
+
+#: includes/payment-methods/class-wc-bluesnap-gateway.php:396
+msgid "An error occurred during the refund request: %s"
+msgstr ""
+
+#: includes/payment-methods/class-wc-bluesnap-gateway.php:419
+msgid "Credit Card type not supported on Add Payment Methods."
+msgstr ""
+
+#: includes/widgets/class-wc-bluesnap-widget-multicurrency.php:17
+msgid "Displays a currency selector."
+msgstr ""
+
+#: includes/widgets/class-wc-bluesnap-widget-multicurrency.php:21
+msgid "BlueSnap Multicurrency Widget"
+msgstr ""
+
+#. translators: %1$s: Order number. %2$s: Customer full name.
+#: templates/emails/admin-chargeback-order.php:24, templates/emails/plain/admin-chargeback-order.php:21
+msgid "Payment for order #%1$s from %2$s has received a chargeback."
+msgstr ""
+
+#: templates/emails/admin-chargeback-order.php:26, templates/emails/plain/admin-chargeback-order.php:23
+msgid "A chargeback occurs when a shopper contacts their card issuing bank and disputes a transaction they see on their statements."
+msgstr ""
+
+#. translators: %1$s: Bluesnap Transaction ID.
+#: templates/emails/admin-chargeback-order.php:29, templates/emails/plain/admin-chargeback-order.php:26
+msgid "If you would like to know more, please log in to your BlueSnap account. You can find the order using Order locator. Invoice ID %1$s."
+msgstr ""
+
+#. translators: %1$s: Reason.
+#. translators: %1$s: Reason for the chargeback.
+#: templates/emails/admin-chargeback-order.php:35, templates/emails/plain/admin-chargeback-order.php:30
+msgid "The bank informs that the reason for the chargeback is: %1$s"
+msgstr ""
+
+#: templates/emails/admin-chargeback-order.php:40, templates/emails/plain/admin-chargeback-order.php:33
+msgid "The order was as follows:"
+msgstr ""
